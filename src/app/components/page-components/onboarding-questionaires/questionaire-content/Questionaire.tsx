@@ -921,7 +921,7 @@ const Questionaire: React.FC<QuestionaireProps> = ({
 
       {utiltiyPopUp && (
         <div className={styles.container}>
-          <div className={styles.boxCont1}>
+          <div className={styles.boxCont2}>
             <div className={styles.subBox}>
               <div className={styles.closeheader}>
                 <MdClose

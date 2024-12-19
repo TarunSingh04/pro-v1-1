@@ -110,7 +110,7 @@ const DragFile: React.FC<DropFileInputProps> = ({ onFileChange,fileState }) => {
 
       {fileState!==null && (
         <div className={styles.dropFilePreview}>
-          <p className={styles.dropFilePreview__title}>Ready to upload</p>
+          {fileState!==null && fileState.length!==0 &&<p className={styles.dropFilePreview__title}>Ready to upload</p>}
           {fileState.map((file, index) => (
             <div key={index} className={styles.dropFilePreview__item}>
               {/* Dynamically show icon based on the file type */}

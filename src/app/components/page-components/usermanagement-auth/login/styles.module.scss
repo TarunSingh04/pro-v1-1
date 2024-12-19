@@ -4,6 +4,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: row-reverse;
+    overflow: auto;
 }
 .LoginContainer{
     width: 70%;
@@ -429,7 +430,7 @@
 .LoginPageCont{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    // overflow: hidden;
 }
 .pageNotDisplay{
     display: none;
